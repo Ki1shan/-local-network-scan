@@ -1,0 +1,52 @@
+# Nmap 7.95 scan initiated Mon May 26 03:02:13 2025 as: /usr/lib/nmap/nmap -sS -oN /home/kali/Desktop/bridged_scan.txt 192.168.1.0/24
+Nmap scan report for 192.168.1.1
+Host is up (0.013s latency).
+Not shown: 995 closed tcp ports (reset)
+PORT    STATE    SERVICE
+22/tcp  filtered ssh
+23/tcp  filtered telnet
+53/tcp  open     domain
+80/tcp  open     http
+443/tcp open     https
+MAC Address: 30:BD:13:0C:F5:68 (Unknown)
+
+Nmap scan report for 192.168.1.3
+Host is up (0.021s latency).
+All 1000 scanned ports on 192.168.1.3 are in ignored states.
+Not shown: 1000 closed tcp ports (reset)
+MAC Address: 0A:80:D5:E7:63:B4 (Unknown)
+
+Nmap scan report for M2006C3MI-KISHAN (192.168.1.4)
+Host is up (0.0083s latency).
+All 1000 scanned ports on M2006C3MI-KISHAN (192.168.1.4) are in ignored states.
+Not shown: 1000 closed tcp ports (reset)
+MAC Address: 08:1C:6E:54:88:4E (Xiaomi Communications)
+
+Nmap scan report for 192.168.1.5
+Host is up (0.012s latency).
+All 1000 scanned ports on 192.168.1.5 are in ignored states.
+Not shown: 1000 closed tcp ports (reset)
+MAC Address: DE:EA:C3:F3:EC:6A (Unknown)
+
+Nmap scan report for 192.168.1.8
+Host is up (0.012s latency).
+All 1000 scanned ports on 192.168.1.8 are in ignored states.
+Not shown: 1000 closed tcp ports (reset)
+MAC Address: 84:B8:B8:C5:13:26 (Motorola (Wuhan) Mobility Technologies Communication)
+
+Nmap scan report for 192.168.1.9 (192.168.1.9)
+Host is up (0.00073s latency).
+Not shown: 996 filtered tcp ports (no-response)
+PORT     STATE SERVICE
+135/tcp  open  msrpc
+139/tcp  open  netbios-ssn
+445/tcp  open  microsoft-ds
+3306/tcp open  mysql
+MAC Address: BA:A6:E8:DB:CE:AE (Unknown)
+
+Nmap scan report for 192.168.1.10
+Host is up (0.0000020s latency).
+All 1000 scanned ports on 192.168.1.10 are in ignored states.
+Not shown: 1000 closed tcp ports (reset)
+
+# Nmap done at Mon May 26 03:02:55 2025 -- 256 IP addresses (7 hosts up) scanned in 41.17 seconds
